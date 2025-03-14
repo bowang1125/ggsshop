@@ -1,46 +1,47 @@
-'use server'
-import { getCloudflareContext } from '@opennextjs/cloudflare'
-import { headers } from 'next/headers'
+"use server";
+import { headers } from "next/headers";
 
-// 增加计数并记录访问
+// 使用 fetch 調用 Netlify Function
 export async function incrementAndLog() {
-  const cf = await getCloudflareContext()
-  const headersList = await headers()
+  try {
+    const headersList = headers();
+    const response = await fetch("/.netlify/functions/increment", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        ip: headersList.get("x-forwarded-for") || "unknown",
+        path: headersList.get("x-forwarded-host") || "/",
+      }),
+    });
 
-  const { results: countResults } = await cf.env.DB.prepare(
-    'INSERT INTO counters (name, value) VALUES (?, 1) ON CONFLICT (name) DO UPDATE SET value = value + 1 RETURNING value'
-  )
-    .bind('page_views')
-    .all()
+    if (!response.ok) {
+      throw new Error("Failed to increment counter");
+    }
 
-  await cf.env.DB.prepare('INSERT INTO access_logs (ip, path, accessed_at) VALUES (?, ?, datetime())')
-    .bind(
-      headersList.get('x-forwarded-for') || headersList.get('x-real-ip') || 'unknown',
-      headersList.get('x-forwarded-host') || '/'
-    )
-    .run()
-
-  const { results: logs } = await cf.env.DB.prepare('SELECT * FROM access_logs ORDER BY accessed_at DESC LIMIT 5').all()
-
-  return {
-    count: countResults[0].value,
-    recentAccess: logs
-  } as { count: number; recentAccess: { accessed_at: string }[] }
+    return await response.json();
+  } catch (error) {
+    console.error("Error in incrementAndLog:", error);
+    return {
+      count: 0,
+      recentAccess: [],
+    };
+  }
 }
 
-// 获取当前计数和最近访问
 export async function getStats() {
-  const cf = await getCloudflareContext()
-  const { results: count } = await cf.env.DB.prepare('SELECT value FROM counters WHERE name = ?')
-    .bind('page_views')
-    .all()
-
-  const { results: logs } = await cf.env.DB.prepare(
-    'SELECT accessed_at FROM access_logs ORDER BY accessed_at DESC LIMIT 5'
-  ).all()
-
-  return {
-    count: count[0]?.value || 0,
-    recentAccess: logs
-  } as { count: number; recentAccess: { accessed_at: string }[] }
+  try {
+    const response = await fetch("/.netlify/functions/stats");
+    if (!response.ok) {
+      throw new Error("Failed to get stats");
+    }
+    return await response.json();
+  } catch (error) {
+    console.error("Error in getStats:", error);
+    return {
+      count: 0,
+      recentAccess: [],
+    };
+  }
 }
