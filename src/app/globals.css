@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 15, 23, 42;
+  --background-end-rgb: 30, 41, 59;
+  --primary-color: 212, 175, 55; /* 金色 */
+  --secondary-color: 192, 192, 192; /* 銀色 */
+  --accent-color: 239, 68, 68; /* 紅色強調 */
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      rgb(var(--background-start-rgb)),
+      rgb(var(--background-end-rgb))
+    )
+    fixed;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* 豪華風格按鈕 */
+.btn-luxury {
+  @apply px-6 py-3 border border-[#D4AF37] text-[#D4AF37] rounded-md transition-all duration-300 hover:bg-[#D4AF37] hover:text-[#0F172A] font-medium;
+}
+
+/* 豪華風格卡片 */
+.card-luxury {
+  @apply bg-[#1E293B] border border-[#D4AF37] rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl;
+}
+
+/* 豪華風格導航 */
+.nav-luxury {
+  @apply bg-[#0F172A]/80 backdrop-blur-md border-b border-[#D4AF37]/30;
+}
+
+/* 豪華風格輸入框 */
+.input-luxury {
+  @apply bg-[#1E293B] border border-[#D4AF37] rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#D4AF37] text-white;
+}
+
+/* 豪華風格頁面標題 */
+.page-title {
+  @apply text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 relative;
+}
+
+.page-title::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-24 h-1 bg-[#D4AF37];
+}
+
+/* 豪華風格分隔線 */
+.divider-luxury {
+  @apply h-px bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent my-8;
+}
+
+/* 產品網格 */
+.product-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6;
+}
+
+/* 產品卡片 */
+.product-card {
+  @apply card-luxury flex flex-col h-full;
+}
+
+.product-card-image {
+  @apply w-full h-64 object-cover object-center;
+}
+
+.product-card-body {
+  @apply p-4 flex flex-col flex-grow;
+}
+
+.product-card-title {
+  @apply text-xl font-semibold text-white mb-2;
+}
+
+.product-card-price {
+  @apply text-[#D4AF37] font-bold text-lg mb-2;
+}
+
+.product-card-category {
+  @apply text-[#C0C0C0] text-sm mb-4;
+}
+
+.product-card-description {
+  @apply text-gray-300 text-sm mb-4 flex-grow;
+}
+
+/* 動畫效果 */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* 頁面轉場動畫 */
+.page-transition-enter {
+  opacity: 0;
+}
+
+.page-transition-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.page-transition-exit {
+  opacity: 1;
+}
+
+.page-transition-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}

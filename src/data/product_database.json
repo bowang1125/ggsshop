@@ -1,0 +1,364 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "直播設備",
+      "description": "各種直播用攝影機、讀稿機、導播設備等"
+    },
+    {
+      "id": 2,
+      "name": "穩定器",
+      "description": "手機、相機穩定器，適合拍攝Vlog和專業影片"
+    },
+    {
+      "id": 3,
+      "name": "收音設備",
+      "description": "麥克風、收音器、監聽耳機等專業音頻設備"
+    },
+    {
+      "id": 4,
+      "name": "攝影燈具",
+      "description": "LED補光燈、RGB彩色燈、環形燈等各種攝影燈具"
+    },
+    {
+      "id": 5,
+      "name": "相機",
+      "description": "各品牌專業相機，包括Panasonic、Sony等"
+    },
+    {
+      "id": 6,
+      "name": "三腳架",
+      "description": "專業攝影三腳架、錄影三腳架、雲台等"
+    },
+    {
+      "id": 7,
+      "name": "無線圖傳",
+      "description": "專業無線圖傳系統，支援HDMI、SDI等接口"
+    },
+    {
+      "id": 8,
+      "name": "運動相機",
+      "description": "GoPro等運動相機及配件"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Ulanzi RT02 讀稿機",
+      "price": "NT$ 3,980",
+      "category": "直播設備",
+      "description": "專業直播讀稿機，適合網紅主播使用，支援多種設備連接。",
+      "specifications": [
+        "尺寸: 標準",
+        "顏色: 黑色",
+        "材質: 鋁合金+塑膠",
+        "連接方式: USB"
+      ],
+      "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Zhiyu Smooth Q4 手機穩定器",
+      "price": "NT$ 2,980",
+      "category": "穩定器",
+      "description": "專業手機穩定器，三軸防抖，適合Vlog拍攝，支援多種手機尺寸。",
+      "specifications": [
+        "尺寸: 折疊式",
+        "顏色: 灰色",
+        "電池續航: 15小時",
+        "負重: 280g"
+      ],
+      "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+      "category_id": 2
+    },
+    {
+      "id": 3,
+      "name": "DJI Osmo Mobile 6 手機穩定器",
+      "price": "NT$ 4,290",
+      "category": "穩定器",
+      "description": "DJI最新款手機穩定器，磁吸式手機夾，支援ActiveTrack 5.0主動跟蹤。",
+      "specifications": [
+        "尺寸: 折疊式",
+        "顏色: 深灰色",
+        "電池續航: 6.5小時",
+        "負重: 290g"
+      ],
+      "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+      "category_id": 2
+    },
+    {
+      "id": 4,
+      "name": "MARS 300 PRO 無線圖傳系統",
+      "price": "NT$ 8,500",
+      "category": "無線圖傳",
+      "description": "專業無線圖傳系統，支援HDMI輸入輸出，低延遲，傳輸距離可達300米。",
+      "specifications": [
+        "接口: HDMI",
+        "延遲: <0.1s",
+        "傳輸距離: 300m",
+        "解析度: 1080p60fps"
+      ],
+      "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+      "category_id": 7
+    },
+    {
+      "id": 5,
+      "name": "Panasonic S5M2 全片幅相機",
+      "price": "NT$ 52,900",
+      "category": "相機",
+      "description": "Panasonic全片幅無反相機，2420萬像素，支援6K錄影，內建五軸防抖。",
+      "specifications": [
+        "感光元件: 全片幅CMOS",
+        "像素: 2420萬",
+        "錄影: 6K 30p",
+        "防抖: 5軸機身防抖"
+      ],
+      "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+      "category_id": 5
+    },
+    {
+      "id": 6,
+      "name": "RODE Wireless Go II 無線麥克風",
+      "price": "NT$ 8,990",
+      "category": "收音設備",
+      "description": "RODE雙通道無線麥克風系統，內建錄音功能，最遠傳輸距離200米。",
+      "specifications": [
+        "通道: 雙通道",
+        "內建錄音: 24小時",
+        "傳輸距離: 200m",
+        "電池續航: 7小時"
+      ],
+      "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+      "category_id": 3
+    },
+    {
+      "id": 7,
+      "name": "MTT601A II-AL 二代油壓阻尼雲台錄影三腳架",
+      "price": "NT$ 4,500",
+      "category": "三腳架",
+      "description": "專業油壓阻尼雲台錄影三腳架，鋁合金材質，穩定性佳，適合專業攝影師使用。",
+      "specifications": [
+        "材質: 鋁合金",
+        "最大高度: 170cm",
+        "最大負重: 5kg",
+        "腳管節數: 3節"
+      ],
+      "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+      "category_id": 6
+    },
+    {
+      "id": 8,
+      "name": "Ninja 20 單色溫補光燈",
+      "price": "NT$ 2,200",
+      "category": "攝影燈具",
+      "description": "200W大功率單色溫LED補光燈，色溫5600K，適合室內外拍攝使用。",
+      "specifications": [
+        "功率: 200W",
+        "色溫: 5600K",
+        "亮度調節: 10-100%",
+        "供電: AC/DC雙用"
+      ],
+      "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+      "category_id": 4
+    },
+    {
+      "id": 9,
+      "name": "WE-10S 全彩RGB環形燈",
+      "price": "NT$ 3,600",
+      "category": "攝影燈具",
+      "description": "18吋全彩RGB環形燈，支援多種顏色調節，適合直播、自拍、彩色攝影使用。",
+      "specifications": [
+        "尺寸: 18吋",
+        "功率: 30W",
+        "色溫: 3200K-5600K",
+        "RGB: 支援全彩"
+      ],
+      "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+      "category_id": 4
+    },
+    {
+      "id": 10,
+      "name": "GoPro HERO 12 Black",
+      "price": "NT$ 13,500",
+      "category": "運動相機",
+      "description": "GoPro最新款運動相機，支援5.3K錄影，HyperSmooth 6.0防抖，防水10米。",
+      "specifications": [
+        "錄影: 5.3K60fps",
+        "防抖: HyperSmooth 6.0",
+        "防水: 10米",
+        "電池續航: 2小時"
+      ],
+      "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+      "category_id": 8
+    }
+  ],
+  "categorized_products": {
+    "1": [
+      {
+        "id": 1,
+        "name": "Ulanzi RT02 讀稿機",
+        "price": "NT$ 3,980",
+        "category": "直播設備",
+        "description": "專業直播讀稿機，適合網紅主播使用，支援多種設備連接。",
+        "specifications": [
+          "尺寸: 標準",
+          "顏色: 黑色",
+          "材質: 鋁合金+塑膠",
+          "連接方式: USB"
+        ],
+        "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+        "category_id": 1
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "name": "Zhiyu Smooth Q4 手機穩定器",
+        "price": "NT$ 2,980",
+        "category": "穩定器",
+        "description": "專業手機穩定器，三軸防抖，適合Vlog拍攝，支援多種手機尺寸。",
+        "specifications": [
+          "尺寸: 折疊式",
+          "顏色: 灰色",
+          "電池續航: 15小時",
+          "負重: 280g"
+        ],
+        "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+        "category_id": 2
+      },
+      {
+        "id": 3,
+        "name": "DJI Osmo Mobile 6 手機穩定器",
+        "price": "NT$ 4,290",
+        "category": "穩定器",
+        "description": "DJI最新款手機穩定器，磁吸式手機夾，支援ActiveTrack 5.0主動跟蹤。",
+        "specifications": [
+          "尺寸: 折疊式",
+          "顏色: 深灰色",
+          "電池續航: 6.5小時",
+          "負重: 290g"
+        ],
+        "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+        "category_id": 2
+      }
+    ],
+    "3": [
+      {
+        "id": 6,
+        "name": "RODE Wireless Go II 無線麥克風",
+        "price": "NT$ 8,990",
+        "category": "收音設備",
+        "description": "RODE雙通道無線麥克風系統，內建錄音功能，最遠傳輸距離200米。",
+        "specifications": [
+          "通道: 雙通道",
+          "內建錄音: 24小時",
+          "傳輸距離: 200m",
+          "電池續航: 7小時"
+        ],
+        "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+        "category_id": 3
+      }
+    ],
+    "4": [
+      {
+        "id": 8,
+        "name": "Ninja 20 單色溫補光燈",
+        "price": "NT$ 2,200",
+        "category": "攝影燈具",
+        "description": "200W大功率單色溫LED補光燈，色溫5600K，適合室內外拍攝使用。",
+        "specifications": [
+          "功率: 200W",
+          "色溫: 5600K",
+          "亮度調節: 10-100%",
+          "供電: AC/DC雙用"
+        ],
+        "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+        "category_id": 4
+      },
+      {
+        "id": 9,
+        "name": "WE-10S 全彩RGB環形燈",
+        "price": "NT$ 3,600",
+        "category": "攝影燈具",
+        "description": "18吋全彩RGB環形燈，支援多種顏色調節，適合直播、自拍、彩色攝影使用。",
+        "specifications": [
+          "尺寸: 18吋",
+          "功率: 30W",
+          "色溫: 3200K-5600K",
+          "RGB: 支援全彩"
+        ],
+        "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+        "category_id": 4
+      }
+    ],
+    "5": [
+      {
+        "id": 5,
+        "name": "Panasonic S5M2 全片幅相機",
+        "price": "NT$ 52,900",
+        "category": "相機",
+        "description": "Panasonic全片幅無反相機，2420萬像素，支援6K錄影，內建五軸防抖。",
+        "specifications": [
+          "感光元件: 全片幅CMOS",
+          "像素: 2420萬",
+          "錄影: 6K 30p",
+          "防抖: 5軸機身防抖"
+        ],
+        "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+        "category_id": 5
+      }
+    ],
+    "6": [
+      {
+        "id": 7,
+        "name": "MTT601A II-AL 二代油壓阻尼雲台錄影三腳架",
+        "price": "NT$ 4,500",
+        "category": "三腳架",
+        "description": "專業油壓阻尼雲台錄影三腳架，鋁合金材質，穩定性佳，適合專業攝影師使用。",
+        "specifications": [
+          "材質: 鋁合金",
+          "最大高度: 170cm",
+          "最大負重: 5kg",
+          "腳管節數: 3節"
+        ],
+        "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+        "category_id": 6
+      }
+    ],
+    "7": [
+      {
+        "id": 4,
+        "name": "MARS 300 PRO 無線圖傳系統",
+        "price": "NT$ 8,500",
+        "category": "無線圖傳",
+        "description": "專業無線圖傳系統，支援HDMI輸入輸出，低延遲，傳輸距離可達300米。",
+        "specifications": [
+          "接口: HDMI",
+          "延遲: <0.1s",
+          "傳輸距離: 300m",
+          "解析度: 1080p60fps"
+        ],
+        "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+        "category_id": 7
+      }
+    ],
+    "8": [
+      {
+        "id": 10,
+        "name": "GoPro HERO 12 Black",
+        "price": "NT$ 13,500",
+        "category": "運動相機",
+        "description": "GoPro最新款運動相機，支援5.3K錄影，HyperSmooth 6.0防抖，防水10米。",
+        "specifications": [
+          "錄影: 5.3K60fps",
+          "防抖: HyperSmooth 6.0",
+          "防水: 10米",
+          "電池續航: 2小時"
+        ],
+        "image_url": "https://s.yimg.com/ut/api/res/1.2/jtQYNQQYXCQBXVKZYWQPzA--~B/YXBwaWQ9eXR3bWFsbDtjYz0zMTUzNjAwMDtoPTYwMDtxPTEwMDt3PTYwMA--/https://s.yimg.com/fy/api/res/1.2/Ux.8Oj_7YGfTHOKZPnTwOA--~C/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjAwO2g9NjAw/https://s.yimg.com/zp/MerchandiseImages/8C8C9E9D0A-SP-10731326.jpg",
+        "category_id": 8
+      }
+    ]
+  }
+}
